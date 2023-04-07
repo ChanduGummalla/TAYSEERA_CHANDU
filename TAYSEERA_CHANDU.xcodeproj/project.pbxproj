@@ -58,9 +58,11 @@
 		2D2F0DFB29E08BC100A43C7E /* TAYSEERA_CHANDU */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F0E1529E08C5400A43C7E /* Model */,
+				2D2F0E1429E08C4B00A43C7E /* Views */,
+				2D2F0E1329E08C1F00A43C7E /* Controllers */,
 				2D2F0DFC29E08BC100A43C7E /* AppDelegate.swift */,
 				2D2F0DFE29E08BC100A43C7E /* SceneDelegate.swift */,
-				2D2F0E0029E08BC100A43C7E /* ViewController.swift */,
 				2D2F0E0229E08BC100A43C7E /* Main.storyboard */,
 				2D2F0E0829E08BC300A43C7E /* Assets.xcassets */,
 				2D2F0E0A29E08BC300A43C7E /* LaunchScreen.storyboard */,
@@ -68,6 +70,28 @@
 				2D2F0E0529E08BC100A43C7E /* TAYSEERA_CHANDU.xcdatamodeld */,
 			);
 			path = TAYSEERA_CHANDU;
+			sourceTree = "<group>";
+		};
+		2D2F0E1329E08C1F00A43C7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F0E0029E08BC100A43C7E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D2F0E1429E08C4B00A43C7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D2F0E1529E08C5400A43C7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
