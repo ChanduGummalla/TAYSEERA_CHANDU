@@ -24,6 +24,9 @@
 		2D2F0E2529E08D3300A43C7E /* CountryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */; };
 		2D2F0E2A29E08E8000A43C7E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2929E08E8000A43C7E /* UIViewControllerExtension.swift */; };
 		2D2F0E2C29E08E9000A43C7E /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2B29E08E9000A43C7E /* CountryModel.swift */; };
+		2D2F0E3129E08F1700A43C7E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2E29E08F1700A43C7E /* Network.swift */; };
+		2D2F0E3229E08F1700A43C7E /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2F29E08F1700A43C7E /* APICall.swift */; };
+		2D2F0E3329E08F1700A43C7E /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E3029E08F1700A43C7E /* APIConstants.swift */; };
 		619B0D81EF7973D949BF0E5F /* Pods_TAYSEERA_CHANDU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130D8196F1CAE13F03EA4278 /* Pods_TAYSEERA_CHANDU.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,9 @@
 		2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableCell.swift; sourceTree = "<group>"; };
 		2D2F0E2929E08E8000A43C7E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		2D2F0E2B29E08E9000A43C7E /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		2D2F0E2E29E08F1700A43C7E /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2D2F0E2F29E08F1700A43C7E /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		2D2F0E3029E08F1700A43C7E /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		60B49C4F5BD7F0CF967AEC6E /* Pods-TAYSEERA_CHANDU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAYSEERA_CHANDU.release.xcconfig"; path = "Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,13 +91,10 @@
 		2D2F0DFB29E08BC100A43C7E /* TAYSEERA_CHANDU */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F0E2D29E08F0700A43C7E /* NetworkMnager */,
 				2D2F0E2829E08E6D00A43C7E /* Extension */,
 				2D2F0E1529E08C5400A43C7E /* Model */,
 				2D2F0E1429E08C4B00A43C7E /* Views */,
-				2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */,
-				2D2F0E2029E08D3300A43C7E /* CountryTableCell.xib */,
-				2D2F0E1E29E08D3300A43C7E /* RecordsTableViewCell.swift */,
-				2D2F0E1F29E08D3300A43C7E /* RecordsTableViewCell.xib */,
 				2D2F0E1329E08C1F00A43C7E /* Controllers */,
 				2D2F0DFC29E08BC100A43C7E /* AppDelegate.swift */,
 				2D2F0DFE29E08BC100A43C7E /* SceneDelegate.swift */,
@@ -119,6 +122,10 @@
 		2D2F0E1429E08C4B00A43C7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */,
+				2D2F0E2029E08D3300A43C7E /* CountryTableCell.xib */,
+				2D2F0E1E29E08D3300A43C7E /* RecordsTableViewCell.swift */,
+				2D2F0E1F29E08D3300A43C7E /* RecordsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +144,16 @@
 				2D2F0E2929E08E8000A43C7E /* UIViewControllerExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		2D2F0E2D29E08F0700A43C7E /* NetworkMnager */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F0E2F29E08F1700A43C7E /* APICall.swift */,
+				2D2F0E3029E08F1700A43C7E /* APIConstants.swift */,
+				2D2F0E2E29E08F1700A43C7E /* Network.swift */,
+			);
+			path = NetworkMnager;
 			sourceTree = "<group>";
 		};
 		7B8A3D0B36719F276F5483D4 /* Pods */ = {
@@ -273,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2F0E3129E08F1700A43C7E /* Network.swift in Sources */,
 				2D2F0E1729E08CE000A43C7E /* SendingFromVC.swift in Sources */,
 				2D2F0E1B29E08CFB00A43C7E /* SendMoneyVC.swift in Sources */,
 				2D2F0E2C29E08E9000A43C7E /* CountryModel.swift in Sources */,
@@ -283,7 +301,9 @@
 				2D2F0E2229E08D3300A43C7E /* RecordsTableViewCell.swift in Sources */,
 				2D2F0DFD29E08BC100A43C7E /* AppDelegate.swift in Sources */,
 				2D2F0DFF29E08BC100A43C7E /* SceneDelegate.swift in Sources */,
+				2D2F0E3329E08F1700A43C7E /* APIConstants.swift in Sources */,
 				2D2F0E2A29E08E8000A43C7E /* UIViewControllerExtension.swift in Sources */,
+				2D2F0E3229E08F1700A43C7E /* APICall.swift in Sources */,
 				2D2F0E2529E08D3300A43C7E /* CountryTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
