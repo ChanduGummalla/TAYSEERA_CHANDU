@@ -27,6 +27,9 @@
 		2D2F0E3129E08F1700A43C7E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2E29E08F1700A43C7E /* Network.swift */; };
 		2D2F0E3229E08F1700A43C7E /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2F29E08F1700A43C7E /* APICall.swift */; };
 		2D2F0E3329E08F1700A43C7E /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E3029E08F1700A43C7E /* APIConstants.swift */; };
+		2D2F0E3829E08F7A00A43C7E /* CoreDataMnager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E3729E08F7A00A43C7E /* CoreDataMnager.swift */; };
+		2D2F0E3B29E08FB600A43C7E /* CountryData+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E3929E08FB500A43C7E /* CountryData+CoreDataClass copy.swift */; };
+		2D2F0E3C29E08FB600A43C7E /* CountryData+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E3A29E08FB600A43C7E /* CountryData+CoreDataProperties copy.swift */; };
 		619B0D81EF7973D949BF0E5F /* Pods_TAYSEERA_CHANDU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130D8196F1CAE13F03EA4278 /* Pods_TAYSEERA_CHANDU.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		2D2F0E2E29E08F1700A43C7E /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		2D2F0E2F29E08F1700A43C7E /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		2D2F0E3029E08F1700A43C7E /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		2D2F0E3729E08F7A00A43C7E /* CoreDataMnager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataMnager.swift; sourceTree = "<group>"; };
+		2D2F0E3929E08FB500A43C7E /* CountryData+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryData+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		2D2F0E3A29E08FB600A43C7E /* CountryData+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryData+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
 		60B49C4F5BD7F0CF967AEC6E /* Pods-TAYSEERA_CHANDU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAYSEERA_CHANDU.release.xcconfig"; path = "Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +97,9 @@
 		2D2F0DFB29E08BC100A43C7E /* TAYSEERA_CHANDU */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F0E3929E08FB500A43C7E /* CountryData+CoreDataClass copy.swift */,
+				2D2F0E3A29E08FB600A43C7E /* CountryData+CoreDataProperties copy.swift */,
+				2D2F0E3629E08F6900A43C7E /* CoreDataManger */,
 				2D2F0E2D29E08F0700A43C7E /* NetworkMnager */,
 				2D2F0E2829E08E6D00A43C7E /* Extension */,
 				2D2F0E1529E08C5400A43C7E /* Model */,
@@ -154,6 +163,14 @@
 				2D2F0E2E29E08F1700A43C7E /* Network.swift */,
 			);
 			path = NetworkMnager;
+			sourceTree = "<group>";
+		};
+		2D2F0E3629E08F6900A43C7E /* CoreDataManger */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F0E3729E08F7A00A43C7E /* CoreDataMnager.swift */,
+			);
+			path = CoreDataManger;
 			sourceTree = "<group>";
 		};
 		7B8A3D0B36719F276F5483D4 /* Pods */ = {
@@ -302,9 +319,12 @@
 				2D2F0DFD29E08BC100A43C7E /* AppDelegate.swift in Sources */,
 				2D2F0DFF29E08BC100A43C7E /* SceneDelegate.swift in Sources */,
 				2D2F0E3329E08F1700A43C7E /* APIConstants.swift in Sources */,
+				2D2F0E3829E08F7A00A43C7E /* CoreDataMnager.swift in Sources */,
 				2D2F0E2A29E08E8000A43C7E /* UIViewControllerExtension.swift in Sources */,
+				2D2F0E3C29E08FB600A43C7E /* CountryData+CoreDataProperties copy.swift in Sources */,
 				2D2F0E3229E08F1700A43C7E /* APICall.swift in Sources */,
 				2D2F0E2529E08D3300A43C7E /* CountryTableCell.swift in Sources */,
+				2D2F0E3B29E08FB600A43C7E /* CountryData+CoreDataClass copy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
