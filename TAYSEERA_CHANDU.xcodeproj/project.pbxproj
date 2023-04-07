@@ -18,9 +18,16 @@
 		2D2F0E1B29E08CFB00A43C7E /* SendMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1829E08CFB00A43C7E /* SendMoneyVC.swift */; };
 		2D2F0E1C29E08CFB00A43C7E /* SendingToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1929E08CFB00A43C7E /* SendingToVC.swift */; };
 		2D2F0E1D29E08CFB00A43C7E /* SavedRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1A29E08CFB00A43C7E /* SavedRecordsVC.swift */; };
+		2D2F0E2229E08D3300A43C7E /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1E29E08D3300A43C7E /* RecordsTableViewCell.swift */; };
+		2D2F0E2329E08D3300A43C7E /* RecordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1F29E08D3300A43C7E /* RecordsTableViewCell.xib */; };
+		2D2F0E2429E08D3300A43C7E /* CountryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2029E08D3300A43C7E /* CountryTableCell.xib */; };
+		2D2F0E2529E08D3300A43C7E /* CountryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */; };
+		619B0D81EF7973D949BF0E5F /* Pods_TAYSEERA_CHANDU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130D8196F1CAE13F03EA4278 /* Pods_TAYSEERA_CHANDU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03687216675B50D0634FF88D /* Pods-TAYSEERA_CHANDU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAYSEERA_CHANDU.debug.xcconfig"; path = "Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU.debug.xcconfig"; sourceTree = "<group>"; };
+		130D8196F1CAE13F03EA4278 /* Pods_TAYSEERA_CHANDU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAYSEERA_CHANDU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2F0DF929E08BC100A43C7E /* TAYSEERA_CHANDU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAYSEERA_CHANDU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2F0DFC29E08BC100A43C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2F0DFE29E08BC100A43C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +41,11 @@
 		2D2F0E1829E08CFB00A43C7E /* SendMoneyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMoneyVC.swift; sourceTree = "<group>"; };
 		2D2F0E1929E08CFB00A43C7E /* SendingToVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingToVC.swift; sourceTree = "<group>"; };
 		2D2F0E1A29E08CFB00A43C7E /* SavedRecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecordsVC.swift; sourceTree = "<group>"; };
+		2D2F0E1E29E08D3300A43C7E /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		2D2F0E1F29E08D3300A43C7E /* RecordsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordsTableViewCell.xib; sourceTree = "<group>"; };
+		2D2F0E2029E08D3300A43C7E /* CountryTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableCell.xib; sourceTree = "<group>"; };
+		2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableCell.swift; sourceTree = "<group>"; };
+		60B49C4F5BD7F0CF967AEC6E /* Pods-TAYSEERA_CHANDU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAYSEERA_CHANDU.release.xcconfig"; path = "Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619B0D81EF7973D949BF0E5F /* Pods_TAYSEERA_CHANDU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,8 @@
 			children = (
 				2D2F0DFB29E08BC100A43C7E /* TAYSEERA_CHANDU */,
 				2D2F0DFA29E08BC100A43C7E /* Products */,
+				7B8A3D0B36719F276F5483D4 /* Pods */,
+				C1C261BA2BA25BB7D8AF12EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +83,10 @@
 			children = (
 				2D2F0E1529E08C5400A43C7E /* Model */,
 				2D2F0E1429E08C4B00A43C7E /* Views */,
+				2D2F0E2129E08D3300A43C7E /* CountryTableCell.swift */,
+				2D2F0E2029E08D3300A43C7E /* CountryTableCell.xib */,
+				2D2F0E1E29E08D3300A43C7E /* RecordsTableViewCell.swift */,
+				2D2F0E1F29E08D3300A43C7E /* RecordsTableViewCell.xib */,
 				2D2F0E1329E08C1F00A43C7E /* Controllers */,
 				2D2F0DFC29E08BC100A43C7E /* AppDelegate.swift */,
 				2D2F0DFE29E08BC100A43C7E /* SceneDelegate.swift */,
@@ -106,6 +125,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7B8A3D0B36719F276F5483D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03687216675B50D0634FF88D /* Pods-TAYSEERA_CHANDU.debug.xcconfig */,
+				60B49C4F5BD7F0CF967AEC6E /* Pods-TAYSEERA_CHANDU.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1C261BA2BA25BB7D8AF12EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130D8196F1CAE13F03EA4278 /* Pods_TAYSEERA_CHANDU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2F0E1029E08BC300A43C7E /* Build configuration list for PBXNativeTarget "TAYSEERA_CHANDU" */;
 			buildPhases = (
+				7396594819201447F61306E7 /* [CP] Check Pods Manifest.lock */,
 				2D2F0DF529E08BC100A43C7E /* Sources */,
 				2D2F0DF629E08BC100A43C7E /* Frameworks */,
 				2D2F0DF729E08BC100A43C7E /* Resources */,
+				3D68CE6534BB34CB4087CAC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,11 +205,55 @@
 			files = (
 				2D2F0E0C29E08BC300A43C7E /* LaunchScreen.storyboard in Resources */,
 				2D2F0E0929E08BC300A43C7E /* Assets.xcassets in Resources */,
+				2D2F0E2329E08D3300A43C7E /* RecordsTableViewCell.xib in Resources */,
 				2D2F0E0429E08BC100A43C7E /* Main.storyboard in Resources */,
+				2D2F0E2429E08D3300A43C7E /* CountryTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D68CE6534BB34CB4087CAC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAYSEERA_CHANDU/Pods-TAYSEERA_CHANDU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7396594819201447F61306E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAYSEERA_CHANDU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D2F0DF529E08BC100A43C7E /* Sources */ = {
@@ -183,8 +266,10 @@
 				2D2F0E0729E08BC100A43C7E /* TAYSEERA_CHANDU.xcdatamodeld in Sources */,
 				2D2F0E0129E08BC100A43C7E /* ViewController.swift in Sources */,
 				2D2F0E1D29E08CFB00A43C7E /* SavedRecordsVC.swift in Sources */,
+				2D2F0E2229E08D3300A43C7E /* RecordsTableViewCell.swift in Sources */,
 				2D2F0DFD29E08BC100A43C7E /* AppDelegate.swift in Sources */,
 				2D2F0DFF29E08BC100A43C7E /* SceneDelegate.swift in Sources */,
+				2D2F0E2529E08D3300A43C7E /* CountryTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +411,7 @@
 		};
 		2D2F0E1129E08BC300A43C7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03687216675B50D0634FF88D /* Pods-TAYSEERA_CHANDU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,6 +439,7 @@
 		};
 		2D2F0E1229E08BC300A43C7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B49C4F5BD7F0CF967AEC6E /* Pods-TAYSEERA_CHANDU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
