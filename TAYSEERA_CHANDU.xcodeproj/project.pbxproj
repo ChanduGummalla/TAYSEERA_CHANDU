@@ -14,6 +14,10 @@
 		2D2F0E0729E08BC100A43C7E /* TAYSEERA_CHANDU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E0529E08BC100A43C7E /* TAYSEERA_CHANDU.xcdatamodeld */; };
 		2D2F0E0929E08BC300A43C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F0E0829E08BC300A43C7E /* Assets.xcassets */; };
 		2D2F0E0C29E08BC300A43C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F0E0A29E08BC300A43C7E /* LaunchScreen.storyboard */; };
+		2D2F0E1729E08CE000A43C7E /* SendingFromVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1629E08CE000A43C7E /* SendingFromVC.swift */; };
+		2D2F0E1B29E08CFB00A43C7E /* SendMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1829E08CFB00A43C7E /* SendMoneyVC.swift */; };
+		2D2F0E1C29E08CFB00A43C7E /* SendingToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1929E08CFB00A43C7E /* SendingToVC.swift */; };
+		2D2F0E1D29E08CFB00A43C7E /* SavedRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F0E1A29E08CFB00A43C7E /* SavedRecordsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		2D2F0E0829E08BC300A43C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2F0E0B29E08BC300A43C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2F0E0D29E08BC300A43C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2F0E1629E08CE000A43C7E /* SendingFromVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingFromVC.swift; sourceTree = "<group>"; };
+		2D2F0E1829E08CFB00A43C7E /* SendMoneyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMoneyVC.swift; sourceTree = "<group>"; };
+		2D2F0E1929E08CFB00A43C7E /* SendingToVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingToVC.swift; sourceTree = "<group>"; };
+		2D2F0E1A29E08CFB00A43C7E /* SavedRecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecordsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				2D2F0E0029E08BC100A43C7E /* ViewController.swift */,
+				2D2F0E1A29E08CFB00A43C7E /* SavedRecordsVC.swift */,
+				2D2F0E1929E08CFB00A43C7E /* SendingToVC.swift */,
+				2D2F0E1829E08CFB00A43C7E /* SendMoneyVC.swift */,
+				2D2F0E1629E08CE000A43C7E /* SendingFromVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -165,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2F0E1729E08CE000A43C7E /* SendingFromVC.swift in Sources */,
+				2D2F0E1B29E08CFB00A43C7E /* SendMoneyVC.swift in Sources */,
+				2D2F0E1C29E08CFB00A43C7E /* SendingToVC.swift in Sources */,
 				2D2F0E0729E08BC100A43C7E /* TAYSEERA_CHANDU.xcdatamodeld in Sources */,
 				2D2F0E0129E08BC100A43C7E /* ViewController.swift in Sources */,
+				2D2F0E1D29E08CFB00A43C7E /* SavedRecordsVC.swift in Sources */,
 				2D2F0DFD29E08BC100A43C7E /* AppDelegate.swift in Sources */,
 				2D2F0DFF29E08BC100A43C7E /* SceneDelegate.swift in Sources */,
 			);
